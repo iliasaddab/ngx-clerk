@@ -1,5 +1,5 @@
 {
-  "name": "ngx-clerk",
+  "name": "ngx-clerk-iliad",
   "version": "0.2.0",
   "description": "Unofficial Clerk.com SDK for Angular",
   "keywords": [
@@ -12,26 +12,26 @@
     "session",
     "jwt"
   ],
-  "homepage": "https://github.com/anagstef/ngx-clerk",
+  "homepage": "https://github.com/iliasaddab/ngx-clerk",
   "bugs": {
-    "url": "https://github.com/anagstef/ngx-clerk/issues"
+    "url": "https://github.com/iliasaddab/ngx-clerk/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anagstef/ngx-clerk.git",
-    "directory": "projects/ngx-clerk"
+    "url": "git+https://github.com/iliasaddab/ngx-clerk.git",
+    "directory": "projects/ngx-clerk-iliad"
   },
   "license": "MIT",
-  "author": "https://github.com/anagstef",
+  "author": "https://github.com/iliasaddab",
   "dependencies": {
     "@clerk/shared": "2.2.0",
     "@clerk/types": "4.5.0",
     "tslib": "2.3.0"
   },
   "peerDependencies": {
-    "@angular/common": "^17.3.0",
-    "@angular/core": "^17.3.0",
-    "@angular/router": "^17.3.0"
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0",
+    "@angular/router": "^18.0.0"
   },
   "sideEffects": false
 }
