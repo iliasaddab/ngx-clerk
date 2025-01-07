@@ -4,12 +4,11 @@ import { take } from 'rxjs';
 import { UserButtonProps } from '@clerk/types';
 
 @Component({
-  selector: 'clerk-user-button',
-  standalone: true,
-  imports: [],
-  template: `<div #ref></div>`,
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+    selector: 'clerk-user-button',
+    imports: [],
+    template: `<div #ref></div>`,
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    encapsulation: ViewEncapsulation.None
 })
 export class ClerkUserButtonComponent implements AfterViewInit, OnDestroy {
   @ViewChild('ref') ref: ElementRef | null = null;
