@@ -1,6 +1,6 @@
 {
   "name": "ngx-clerk-iliad",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Unofficial Clerk.com SDK for Angular",
   "keywords": [
     "clerk",
@@ -24,9 +24,9 @@
   "license": "MIT",
   "author": "https://github.com/iliasaddab",
   "dependencies": {
-    "@clerk/shared": "2.2.0",
-    "@clerk/types": "4.5.0",
-    "tslib": "2.3.0"
+    "@clerk/shared": "2.20.6",
+    "@clerk/types": "4.40.2",
+    "tslib": "2.8.1"
   },
   "peerDependencies": {
     "@angular/common": "^19.0.0",
