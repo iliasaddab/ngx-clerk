@@ -6,7 +6,7 @@ Welcome to **ngx-clerk-iliad**, an unofficial Angular package that integrates wi
 
 ## Prerequisites
 
-- Angular version **19 or higher**.
+- Angular version **19 or higher**. (For older Angular versions, use < 0.2.8)
 - Currently, this package supports **client-side operations only**. Server-Side Rendering (SSR) is not supported at the moment.
 
 ## Installation
